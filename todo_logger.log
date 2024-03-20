@@ -1,0 +1,6 @@
+ERROR:root:Sometimes goes wrong!
+Traceback (most recent call last):
+  File "C:\Users\Lenav\Desktop\python\lesson 15\ToDo\todolist.py", line 223, in main
+    todo_list.add_tasks()
+    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Todo' object has no attribute 'add_tasks'. Did you mean: 'add_task'?
